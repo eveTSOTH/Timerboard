@@ -1,0 +1,65 @@
+<html>
+<h1>TSOTH Operations Timer Board</h1>
+&nbsp;
+&nbsp;
+&nbsp;
+
+<p>&nbsp;</p>
+<b>First Timer - Name Of Structure Here</b>
+<br>
+Friday 12th November 2021, 14:30
+<div id=timer></div>
+
+<p>&nbsp;</p>
+<b>Second Timer - Name Of Structure Here</b>
+<br>
+Friday 19th November 2021, 14:30
+<div id=timer2></div>
+
+<p>&nbsp;</p>
+<b>Third Timer - Name Of Structure Here</b>
+<br>
+Friday 26th November 2021, 14:30
+<div id=timer3></div>
+
+</body>
+
+
+<script>
+var countDownDate1 = new Date("Nov 12, 2021 14:30:00").getTime();
+var countDownDate2 = new Date("Nov 19, 2021 14:30:00").getTime();
+var countDownDate3 = new Date("Nov 26, 2021 14:30:00").getTime();
+
+
+var timer1= document.getElementById("timer")
+var timer2= document.getElementById("timer2")
+var timer3= document.getElementById("timer3")
+
+function countdown(finish_date, timer){
+
+    var x = setInterval(function() {
+
+                    var now = new Date().getTime();
+
+                    var distance = finish_date - now;
+
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    timer.innerHTML = days + "<span style='font-weight:normal'>d</span> " + hours + "h " + minutes + "m " + seconds + "s ";
+
+
+                    if (distance < 0) {
+                    clearInterval(x);
+                    timer.innerHTML = "Timer Has Ended";
+                    }
+                    }, 1000);
+}
+
+countdown(countDownDate1, timer1)
+countdown(countDownDate2, timer2)
+countdown(countDownDate3, timer3)
+</script>
+</html>
