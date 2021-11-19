@@ -13,22 +13,22 @@ Friday 12th November 2021, 14:30
 <p>&nbsp;</p>
 <b>Second Timer - Name Of Structure Here</b>
 <br>
-Friday 19th November 2021, 14:30
+Sunday 1st January 2090, 14:30
 <div id=timer2></div>
 
 <p>&nbsp;</p>
 <b>Third Timer - Name Of Structure Here</b>
 <br>
-Friday 26th November 2021, 14:30
+Monday 2nd January 2090, 14:30
 <div id=timer3></div>
 
 </body>
 
 
 <script>
-var countDownDate1 = new Date("Nov 12, 2021 14:30:00").getTime();
-var countDownDate2 = new Date("Nov 19, 2021 14:30:00").getTime();
-var countDownDate3 = new Date("Nov 26, 2021 14:30:00").getTime();
+var countDownDate1 = new Date("Nov 12, 2021 14:30:00").getTime();   # Enter the date and time of the corresponding structure bash/fleet and the script will show a countdown until that time
+var countDownDate2 = new Date("Jan 01, 2090 14:30:00").getTime();
+var countDownDate3 = new Date("Jan 02, 2090 14:30:00").getTime();
 
 
 var timer1= document.getElementById("timer")
