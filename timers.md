@@ -27,7 +27,7 @@ Wednesday 24th November 2021, 08:00
 
 <script>
 var countDownDate1 = new Date("Nov 23, 2021 20:00:00").getTime();
-var countDownDate2 = new Date("Nov 19, 2021 21:00:00").getTime();
+var countDownDate2 = new Date("Nov 23, 2021 21:00:00").getTime();
 var countDownDate3 = new Date("Nov 24, 2021 08:00:00").getTime();
 
 
