@@ -6,29 +6,29 @@
 &nbsp;
 
 <p>&nbsp;</p>
-<b>First Timer - Name Of Structure Here</b>
+<b>Airaken - Nayru (Athanor) - SHIELDS</b>
 <br>
-Friday 12th November 2021, 14:30
+Tuesday 23rd November 2021, 20:00
 <div id=timer></div>
 
 <p>&nbsp;</p>
-<b>Second Timer - Name Of Structure Here</b>
+<b>Airaken - Epona (Athanor) - SHIELDS</b>
 <br>
-Friday 19th November 2022, 14:30
+Tuesday 23rd November 2021, 21:00
 <div id=timer2></div>
 
 <p>&nbsp;</p>
-<b>Third Timer - Name Of Structure Here</b>
+<b>Airaken - Navi (Athanor) - SHIELDS</b>
 <br>
-Friday 26th November 2022, 14:30
+Wednesday 24th November 2021, 08:00
 <div id=timer3></div>
     
     </body>
 
 <script>
-var countDownDate1 = new Date("Nov 12, 2021 14:30:00").getTime();
-var countDownDate2 = new Date("Nov 19, 2022 14:30:00").getTime();
-var countDownDate3 = new Date("Nov 26, 2022 14:30:00").getTime();
+var countDownDate1 = new Date("Nov 23, 2021 20:00:00").getTime();
+var countDownDate2 = new Date("Nov 19, 2021 21:00:00").getTime();
+var countDownDate3 = new Date("Nov 24, 2021 08:00:00").getTime();
 
 
 var timer1= document.getElementById("timer")
