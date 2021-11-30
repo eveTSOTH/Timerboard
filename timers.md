@@ -6,23 +6,25 @@
 &nbsp;
 
 <p>&nbsp;</p>
-<b>Airaken - Nayru (Athanor) - ARMOUR</b>
-<br>
-Tuesday 30th November 2021, 09:14
-<div id=timer></div>
-        
-<p>&nbsp;</p>
 <b>Airaken - Farore (Athanor) - ARMOUR</b>
 <br>
 Wednesday 1st December 2021, 12:40
-<div id=timer2></div>        
+<div id=timer></div>        
+     
+        
+<p>&nbsp;</p>
+<b>Airaken - Nayru (Athanor) - ARMOUR</b>
+<br>
+Thursday 2nd December 2021, 11:18
+<div id=timer2></div>
+        
 
     
     </body>
 
 <script>
-var countDownDate1 = new Date("Nov 30, 2021 09:14:00").getTime();
-var countDownDate2 = new Date("Dec 01, 2021 12:40:00").getTime();
+var countDownDate1 = new Date("Dec 01, 2021 12:40:00").getTime();
+var countDownDate2 = new Date("Dec 02, 2021 11:18:00").getTime();
 var countDownDate3 = new Date("Nov 24, 2021 08:00:00").getTime();
 
 
