@@ -6,16 +6,16 @@
 &nbsp;
 
 <p>&nbsp;</p>
-<b>Airaken - Farore (Athanor) - ARMOUR</b>
+<b>Defence Of The Realm</b>
 <br>
-Wednesday 1st December 2021, 12:40
+Friday 14th January 2022, 20:00
 <div id=timer></div>        
      
         
 <p>&nbsp;</p>
-<b>Airaken - Nayru (Athanor) - ARMOUR</b>
+<b>Airaken - Darunia (Athanor) - SHIELD</b>
 <br>
-Thursday 2nd December 2021, 11:18
+Saturday 15th January 2022, 19:00
 <div id=timer2></div>
         
 
@@ -23,8 +23,8 @@ Thursday 2nd December 2021, 11:18
     </body>
 
 <script>
-var countDownDate1 = new Date("Dec 01, 2021 12:40:00").getTime();
-var countDownDate2 = new Date("Dec 02, 2021 11:18:00").getTime();
+var countDownDate1 = new Date("Jan 14, 2022 20:00:00").getTime();
+var countDownDate2 = new Date("Jan 15, 2022 19:00:00").getTime();
 var countDownDate3 = new Date("Nov 24, 2021 08:00:00").getTime();
 
 
